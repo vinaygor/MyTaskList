@@ -1,0 +1,21 @@
+Firstly install all the dependencies using node package manager.
+
+Command:
+
+npm install express body-parser ejs mongojs --save
+
+This will create package.json with all the dependencies required.
+
+------------ To start the server use following command-----------------
+
+node server
+
+Once started you can check by going to URL--> localhost:3000 (3000 is the port number defined in package.json)
+
+-----------------------------------------------------------------------
+After we make any changes we need to restart the server. This can be automated by installing "nodemon"
+
+command:
+npm install -g nodemon
+
+Once the installation is done we will now run nodemon instead of node server
